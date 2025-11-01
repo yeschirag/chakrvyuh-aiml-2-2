@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WandaVision Steganography Challenge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="challenge-container">
+        <h1>🔍 WandaVision Challenge 🔍</h1>
+
+        <pre class="poem">
+In frames of joy, a family stands,
+Crafted gently by her hands.
+Smiles and laughter, pure delight,
+Yet truth dissolves in tinted light.
+Walls of warmth, a flawless hue,
+But pixels whisper what's not true.
+Beneath the calm, a secret streams,
+A code concealed in fragile dreams.
+Seek where the final colors sleep,
+And what you find — it shall not keep.
+The tale's reflection hides the key,
+Read not as is, but as it used to be.
+        </pre>
+
+        <hr>
+
+        <div class="info-box">
+            <p id="assignment-text">Assigning image...</p>
+            <p>📁 Download your image from the <a href="https://drive.google.com/drive/folders/1QST31iX4AiGfTzpW1Kz7vLjvvYhoxkjg" target="_blank" rel="noopener noreferrer">Image Pack</a></p>
+        </div>
+
+        <form id="answer-form">
+            <p id="attempt-status">Attempts: 0 / 10</p>
+
+            <label for="answer-input">Enter Your Answer</label>
+            <input type="text" id="answer-input" placeholder="Your decoded word..." required>
+
+            <button type="submit" id="submit-button">Submit Answer</button>
+        </form>
+
+        <div id="feedback-message"></div>
+
+        <!-- ✅ NEW BUTTON ADDED -->
+        <button id="next-level-button" onclick="window.location.href='https://chakrvyuh-aiml-2-3-production.up.railway.app/'">➡️ Next Level</button>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
