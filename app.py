@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 answers = {
     1: "ODROM", 2: "KRATS", 3: "ADNAW", 4: "NOISIV", 5: "AHTAGA",
-    6: "ACIREMA", 7: "EGNARTS", 8: "SO NAHT", 9: "IKOL", 10: "YADIRF",
+    6: "ACIREMA", 7: "EGNARTS", 8: "SONAHT", 9: "IKOL", 10: "YADIRF",
     11: "NORTLU", 12: "SIVRAJ", 13: "GNOW", 14: "IRUHS", 15: "RETEP",
     16: "CITSYM", 17: "SOAHC", 18: "YTILAER", 19: "NOISULLI", 20: "XEH",
     21: "HCTILG", 22: "CIGAM", 23: "HTURT", 24: "RORRIM", 25: "EMIT",
@@ -14,7 +14,7 @@ answers = {
     36: "ESRUC", 37: "TERCES", 38: "THGIL", 39: "SSENKRAD", 40: "YGRENE",
     41: "MUINARBIV", 42: "WEIVTSEW", 43: "YNITSED", 44: "YROMEM",
     45: "ERUTCARF", 46: "CITOAHC", 47: "XODARAP", 48: "LANGIS",
-    49: "NROB ER", 50: "XEDOC"
+    49: "NROBER", 50: "XEDOC"
 }
 
 
